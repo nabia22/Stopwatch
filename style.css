@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+h1{
+    background-color: #ffffff;
+    color: blue;
+    display: inline-block;
+    width: 100px;
+    
+}
+
+button{
+    color: rgb(252, 16, 55);
+    border-radius: 5px;
+    border-color: white;
+    width: 100px;
+    background-color: greenyellow;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #ffffff
+}
+
+@media only screen and (max-width:600){
+      div{
+          width: 400px;
+      }
+}
+@media only screen and (max-width:400){
+    div{
+        width: 200px;
+    }
+}
